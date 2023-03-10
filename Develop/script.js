@@ -64,5 +64,15 @@ function generatePassword() {
   return password;
 }
 
+// Write password to the #password input or display in an alert
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
 
+  if (passwordText) {
+    passwordText.value = password;
+  } else {
+    alert(password);
+  }
+}
 
