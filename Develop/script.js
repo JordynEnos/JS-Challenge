@@ -36,8 +36,33 @@ function getRandomChar(chars) {
   return chars.charAt(Math.floor(Math.random() * chars.length));
 }
 
- 
-
+// Defined the main function to generate the password based on user input
+function generatePassword() {
+  var length = getPasswordLength();
+  var criteria = getPasswordCriteria();
+  var charSet = "";
+  if (criteria.lowercase) {
+    charSet += lowercaseChars;
+  }
+  if (criteria.uppercase) {
+    charSet += uppercaseChars;
+  }
+  if (criteria.numeric) {
+    charSet += numericChars;
+  }
+  if (criteria.special) {
+    charSet += specialChars;
+  }
+  if (charSet.length === 0) {
+    alert("At least one character type must be selected.");
+    return generatePassword();
+  }
+  var password = "";
+  for (var i = 0; i < length; i++) {
+    password += getRandomChar(charSet);
+  }
+  return password;
+}
 
 
 
