@@ -65,6 +65,7 @@ function generatePassword() {
 }
 
 // Write password to the #password input or display in an alert
+// Defined a function writePassword() that generates a password using the generatePassword() function and then writes the generated password to the #password input on the page / displays it in an alert if the input is not found.
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
@@ -75,4 +76,7 @@ function writePassword() {
     alert(password);
   }
 }
+
+// Added event listener to generate button
+generateBtn.addEventListener("click", writePassword);
 
