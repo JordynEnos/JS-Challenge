@@ -77,6 +77,6 @@ function writePassword() {
   }
 }
 
-// Added event listener to generate button
+// Added event listener to a "generate" button on the page, so that when the user clicks the button, the writePassword() function is called to generate and display a password.
 generateBtn.addEventListener("click", writePassword);
 
