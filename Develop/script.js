@@ -31,6 +31,11 @@ function getPasswordCriteria() {
   };
 }
 
+// Defined a function to generate a random character from a given set of characters
+function getRandomChar(chars) {
+  return chars.charAt(Math.floor(Math.random() * chars.length));
+}
+
  
 
 
