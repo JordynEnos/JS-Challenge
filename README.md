@@ -12,9 +12,9 @@ This repository includes a user-friendly interface that guides the user through 
     - prompted to choose a length of at least 8 characters & no more than 128 characters
     - confirms whether or not to include lowercase, uppercase, numeric, and/or special characters
 
--When the user answers each prompt, their input is validated and at least one character type is selected
+- When the user answers each prompt, their input is validated and at least one character type is selected
 
--When all prompts are answered, a password is generated that matches the selected criteria
+- When all prompts are answered, a password is generated that matches the selected criteria
 
 - The password is either displayed in an alert or written to the page
 
