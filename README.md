@@ -21,9 +21,9 @@ This repository includes a user-friendly interface that guides the user through 
 
 ## Usage (Screenshot)
 
-![Screenshot of updated Horiseon webpage](https://github.com/JordynEnos/js-password-gen/blob/c1a5f3a67c623d1ce51f8f2b6a499a0dca8af596/Develop/password-gen-screenshot.png)
+![Screenshot of Password-Gen Webpage](https://github.com/JordynEnos/js-password-gen/blob/c1a5f3a67c623d1ce51f8f2b6a499a0dca8af596/Develop/password-gen-screenshot.png)
 
 
 ## Deployed Application
 
-[Deployed Application Link](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+[Deployed Application Link](https://jordynenos.github.io/js-password-gen/)
